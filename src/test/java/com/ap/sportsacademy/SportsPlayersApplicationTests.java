@@ -1,4 +1,4 @@
-package com.ap.sports;
+package com.ap.sportsacademy;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
