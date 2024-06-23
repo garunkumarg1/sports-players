@@ -15,6 +15,6 @@ public interface SportRepository extends JpaRepository<Sport, Long> {
     
     List<Sport> findByNameIn(List<String> names);
     
-    @Query("SELECT s FROM Sport s WHERE size(s.players) == 0")
+    @Query("SELECT s FROM Sport s WHERE size(s.players) = 0")
     List<Sport> findSportsWithNoPlayers();
 }
